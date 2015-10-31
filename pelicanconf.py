@@ -25,7 +25,7 @@ import os
 AUTHOR = 'Samuel Harrold'
 OUTPUT_PATH = os.path.join(
     os.path.expanduser(r'~'),
-    'stharrold-github-io/')
+    'stharrold.github.io/')
 PATH = 'content'
 # # Plugins
 # # https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags
