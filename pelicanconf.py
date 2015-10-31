@@ -27,7 +27,8 @@ OUTPUT_PATH = os.path.join(
     os.path.expanduser(r'~'),
     'stharrold.github.io/')
 PATH = 'content'
-# # Plugins
+# Plugins
+# Plugin added as a submodule.
 # # https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags
 # PLUGINS = ['liquid_tags.notebook']
 # PLUGIN_PATHS = 'pelican-plugins'
@@ -48,8 +49,9 @@ AUTHOR_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 
 # Themes
-# TODO: https://github.com/duilio/pelican-octopress-theme
-#THEME = 'pelican-themes/octopress'
+# Theme added as a submodule.
+# Settings from https://github.com/duilio/pelican-octopress-theme
+THEME = 'pelican-themes/octopress'
 # TODO: add other widget sfrom octopress
 #SEARCH_BOX = True
 #DISQUS_SITENAME = ''
