@@ -53,7 +53,7 @@ TRANSLATION_FEED_ATOM = None
 # TODO: add other widget sfrom octopress
 #SEARCH_BOX = True
 #DISQUS_SITENAME = ''
-GITHUB_URL = 'https://github.com/stharrold/stharrold.github.io'
+GITHUB_URL = 'https://github.com/stharrold/stharrold.github.io_source'
 #GOOGLE_ANALYTICS = 'UA-XXXX-YYYY'
 SOCIAL = (
     ('stharrold', 'https://github.com/stharrold'),
