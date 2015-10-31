@@ -23,6 +23,8 @@ import os
 
 # Basic settings
 AUTHOR = 'Samuel Harrold'
+# TODO: use ghp-import, change OUTPUT_PATH to default and modify .gitignore
+DELETE_OUTPUT_DIRECTORY = True
 OUTPUT_PATH = os.path.join(
     os.path.expanduser(r'~'),
     'stharrold.github.io/')
@@ -53,7 +55,7 @@ TRANSLATION_FEED_ATOM = None
 # To use a custom theme, add themes as a git submodule:
 # $ git submodule add --recursive https://github.com/getpelican/pelican-themes.git
 # https://git-scm.com/book/en/v2/Git-Tools-Submodules
-# To delete the submodule:https://gist.github.com/kyleturner/1563153
+# To delete the submodule: https://gist.github.com/kyleturner/1563153
 #DISQUS_SITENAME = ''
 GITHUB_URL = 'https://github.com/stharrold/stharrold.github.io_source'
 #GOOGLE_ANALYTICS = 'UA-XXXX-YYYY'
