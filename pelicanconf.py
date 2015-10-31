@@ -49,11 +49,9 @@ AUTHOR_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
 
 # Themes
-# Theme added as a submodule.
-# Settings from https://github.com/duilio/pelican-octopress-theme
-THEME = 'pelican-themes/octopress'
-# TODO: add other widget sfrom octopress
-#SEARCH_BOX = True
+# To use a custom theme, add themes as a git submodule:
+# $ git submodule add --recursive https://github.com/getpelican/pelican-themes.git
+# https://git-scm.com/book/en/v2/Git-Tools-Submodules
 #DISQUS_SITENAME = ''
 GITHUB_URL = 'https://github.com/stharrold/stharrold.github.io_source'
 #GOOGLE_ANALYTICS = 'UA-XXXX-YYYY'
